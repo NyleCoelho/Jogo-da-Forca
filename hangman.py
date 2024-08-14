@@ -30,3 +30,7 @@ if "-" in guessed:
     print("The word was " + word)
 
 print("Thanks for playing!")
+input("Do you want to play again? Press Enter to continue...")
+
+if input() == "":
+    exec(open("hangman.py").read()) # Restart the game
